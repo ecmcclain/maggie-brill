@@ -10,24 +10,17 @@ const Homepage = () => {
     return (
         <section id="homepage">
             <Container fluid className='cin'>
-            {/* <Row>
-                <Col xs={{span: 12}} 
-                    sm={{span: 6 }} 
-                    md={{span: 6}} 
-                    l={{span: 4}} 
-                    xl={{span: 4}}
-                    className='cin'> */}
-                    <div className='cards'>
-                        {cinProjects.map((CinProject) => {
-                            return (
-                            <ProjectCard
-                            project={CinProject}
-                             />
-                            );
-                        })}
+                <div className='cards'>
+                    <Row>
+                    {cinProjects.map((CinProject) => {
+                        return (
+                        <ProjectCard
+                        project={CinProject}
+                            />
+                        );
+                    })}
+                    </Row>
                     </div>
-                {/* </Col>
-            </Row> */}
             </Container>
         </section>
     )
