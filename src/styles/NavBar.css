@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+  
+a {
+    color: rgb(66, 66, 66);
+    font-size: larger;
+    text-decoration: inherit;
+    margin: 0px 20px 0px 20px;
+}
+
+nav.navbar{
+    background-color: #EDFFCC;
+    color: white;
+}
+
+.me-auto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+  }
