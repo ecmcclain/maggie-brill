@@ -1,13 +1,14 @@
 import '../styles/About.css'
 import {Container, Row, Col} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
+// import maggieProfile from '/maggie-profile.JPEG';
 
 const About = () => {
     return (
         <section id="about">
             <Container fluid className='profile-container'>
                 <Card 
-                className='container-size'>
+                className='container-size' style={{backgroundImage: `url(/maggie-profile.JPEG)`}}>
                 <Card.Text 
                 className='profile-text'>
                     Maggie Brill is a Brooklyn-based director and cinematographer 

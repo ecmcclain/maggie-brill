@@ -10,7 +10,6 @@
 .container-size{
     width: 100vw;
     height: 90vh;
-    background-image: url('../components/maggie-profile.JPEG');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 10px 40px 10px;
