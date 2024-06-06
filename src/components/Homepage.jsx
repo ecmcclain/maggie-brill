@@ -10,7 +10,6 @@ const Homepage = () => {
     return (
         <section id="homepage">
             <Container fluid className='cin'>
-                <div className='cards'>
                     <Row>
                     {cinProjects.map((CinProject) => {
                         return (
@@ -20,7 +19,6 @@ const Homepage = () => {
                         );
                     })}
                     </Row>
-                    </div>
             </Container>
         </section>
     )

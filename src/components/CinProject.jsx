@@ -7,6 +7,9 @@ import {cinProjects} from './CinProjects';
 import {Container, Row, Col} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
+import ProjectImage from "./ProjectImage";
+
+
 export default function CinProject (){
     const { CinProjectUrl } = useParams();
     const url = `cinematography/${CinProjectUrl}`
@@ -17,22 +20,32 @@ export default function CinProject (){
         }
     }
 
+    const projImages = project.imgs
+
     return (
         <section id="cin-project">
-        <Container>
+        <Container fluid className='head-container'>
             <Col>
             <Row>
-                <Card>
-                    <h3>{project.title}</h3>
-                    <h4>{project.director}</h4>
-                    <h4>{project.type} | {project.genre} | {project.time}</h4>
-                    <h4><a href={project.link}>{project.linktxt}</a></h4>
+                <Card className='head'>
+                    <h5>{project.title}</h5>
+                    <h6>{project.director}</h6>
+                    <h6>{project.type} | {project.genre} | {project.time}</h6>
+                    <h6><a className='link' href={project.link}>{project.linktxt}</a></h6>
                 </Card>
             </Row>
             <Row>
-                <Card>
-
-                </Card>
+                <Container className='images'>
+                    <Row>
+                    {projImages.map((ProjImage) => {
+                            return (
+                            <ProjectImage
+                            image={ProjImage}
+                                />
+                            );
+                        })}
+                    </Row>
+                </Container>
             </Row>
             </Col>
         </Container>

@@ -1,0 +1,24 @@
+.head{
+    text-align: center;
+    color: white;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.head-container{
+    padding: 0;
+}
+
+.images{
+    margin: 10px 30px 30px 10px;
+    width: 80wv;
+}
+
+.link {
+    color: white;
+}
+
+.project-image{
+    width: 100%;
+    margin: 5px;
+}

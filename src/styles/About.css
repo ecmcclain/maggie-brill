@@ -1,0 +1,84 @@
+
+.profile-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: start !important;
+    container-name: size;
+    container-type: size;
+}
+
+.container-size{
+    width: 100vw;
+    height: 90vh;
+    background-image: url('../components/maggie-profile.JPEG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 10px 40px 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-text{
+    position: absolute;
+    width: 30%;
+    background-color: rgb(255,102,0,0.8) !important;
+    margin: 1rem;
+    padding: 15px !important;
+    color:white;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@container size (max-width: 1060px){
+    .profile-text {
+        font-size: 100%;
+        width: 35%;
+    }
+}
+
+@container size (max-width: 910px){
+    .profile-text {
+        margin: 0;
+        width: 100%;
+        height: 35vh;
+        font-size: 95%;
+        background-color: rgb(255,102,0) !important;
+
+    }
+
+    .container-size{
+        width: 100vw;
+        background-size: contain;
+        margin: 0 10px 40px 10px;
+        padding: 0px;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@container size (max-width: 750px){
+    .profile-text {
+        height: 40vh;
+    }
+}
+
+@container size (max-width: 630px){
+    .profile-text {
+        height: 50vh;
+    }
+}
+
+@container size (max-width: 475px){
+    .profile-text {
+        height: 60vh;
+        font-size: 90%;
+    }
+}
+
+@container size (max-width: 385px){
+    .profile-text {
+        height: 65vh;
+    }
+}

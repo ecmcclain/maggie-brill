@@ -11,7 +11,8 @@ a {
 }
 
 nav.navbar{
-    background-color: #EDFFCC;
+    /* background-color: rgb(237,255,204,.1); */
+    background-color: #FF6600;
     color: white;
 }
 

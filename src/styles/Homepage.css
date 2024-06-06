@@ -5,27 +5,35 @@
   }
 
 .project {
-    padding: 12px 0 12px 0;
-    margin: 12px 0 12px 0;
+    padding: 0;
+    margin: 0;
     align-items: center;
+    aspect-ratio: 2 / 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
-.cinCard{
-    height: 130px;
-}
-
-p{
-    text-align: center;
+.projectLink{
+    width: 100%;
     margin: 0;
 }
 
-.cin{
-    width: 100%;
+.cinCard{
+    aspect-ratio: 2 / 1;
     display: flex;
-    margin: 30px;
-    align-items: center !important;
-    justify-content: center !important;
+    padding: 0px ;
 }
 
-.cards{
-    width: 100%;
+.row{
+    margin: 10px;
+}
+
+.projectTitle{
+    color: white;
+}
+
+.projectLink:hover{
+    .projectTitle{
+        display: none;
+}
 }
