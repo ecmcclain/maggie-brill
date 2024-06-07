@@ -4,7 +4,7 @@
 }
   
 a {
-    color: rgb(66, 66, 66);
+    color: rgb(66, 66, 66) !important;
     font-size: larger;
     text-decoration: inherit;
     margin: 0px 20px 0px 20px;

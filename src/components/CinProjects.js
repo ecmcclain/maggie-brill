@@ -45,9 +45,7 @@ export const cinProjects = [
             '/leo-lets-it-rain/Still009.jpg',
             '/leo-lets-it-rain/Still010.jpg',
             '/leo-lets-it-rain/Still011.jpg',
-            '/leo-lets-it-rain/Still012.jpg',
-            '/leo-lets-it-rain/Still013.jpg',
-            '/leo-lets-it-rain/Still014.jpg']
+            '/leo-lets-it-rain/Still013.jpg']
 },
 {'cover': '/music-coma/Still001.jpg',
     'title': 'MUSIC COMA',

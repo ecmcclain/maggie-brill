@@ -8,25 +8,31 @@ import About from './components/About';
 // import Calendar from './components/Calendar';
 import NavBar from './components/NavBar';
 import CinProject from './components/CinProject';
+import Directing from './components/Directing';
+import DirProject from './components/DirProject';
+
 
 function App() {
   return (
     <div className="app-container">
       <header>
       <NavBar/>
+      <Routes>
+      <Route path="/cinematography/:CinProjectUrl" element={<CinProject />}
+          loader={({ params }) => {
+            console.log(params.CinProjectUrl);
+          }}> </Route>
+          <Route path="/directing/:DirProjectUrl" element={<DirProject />}
+          loader={({ params }) => {
+            console.log(params.DirProjectUrl);
+          }}> </Route>
+      </Routes>
       </header>
       <main>
       <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/cinematography/:CinProjectUrl" element={<CinProject />}
-          loader={({ params }) => {
-            console.log(params.CinProjectUrl);
-          }}> 
-    
-            {/* <Route /> */}
-          </Route>
-           {/* <Route path="/calendar" element={<Calendar />} /> */}
+          <Route path="/directing" element={<Directing />} />
         </Routes>
         </main>
     </div>

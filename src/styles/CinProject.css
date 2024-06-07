@@ -2,17 +2,33 @@
     text-align: center;
     color: white;
     display: flex;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    justify-content: end;
+    border: 0;
+    border-radius: 0;
 }
 .head-container{
     padding: 0;
+    margin: 0;
 }
 
-.images{
+.navbar{
+    background-color: rgb(237, 255, 204, .1) !important;
+}
+
+a {
+    color: white !important;
+}
+
+/* .images{
     margin: 10px 30px 30px 10px;
     width: 80wv;
-}
+    align-self: center;
+} */
 
 .link {
     color: white;
