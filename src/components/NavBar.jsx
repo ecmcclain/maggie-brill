@@ -7,30 +7,30 @@ import {Link} from 'react-router-dom';
 const NavBar = () => {
     return (
 
-      <Navbar expand="lg" fixed='top'>
-        <Container>
-            <Navbar.Brand>
+      <Navbar expand="lg" fixed='bottom'>
+        <Container >
+            {/* <Navbar.Brand>
                 <Link
                     to="/"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""}>
                     MAGGIE BRILL
                 </Link>
-            </Navbar.Brand>
+            </Navbar.Brand> */}
             <Navbar.Toggle className="toggler" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+                <Nav className="mx-auto">
                     <Link
-                        to="/"
+                        to="/cinematography"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""}>
-                        Cinematography
+                        Cinematography Selections
                     </Link>
                     <Link
                         to="/directing"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""}>
-                        Directing
+                        Directing Selections
                     </Link>
                     <Link
                         to="/about"

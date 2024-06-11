@@ -1,0 +1,51 @@
+.projectTitle{
+    color: white;
+}
+
+.projectLink:hover{
+    .projectTitle{
+        display: none;
+}
+} 
+
+#cinematography{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.cin {
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    transition: scroll 0.3s ease-in-out;
+  }
+  
+  
+.nav-btn {
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: rgb(237,255,204,.0);
+    border-radius: 6px;
+    height: 250px;
+    width: 50px;
+    margin: 5px;
+  }
+
+.projectLink{
+    margin: 10px;
+    aspect-ratio: 1.75 / 1;
+}
+
+.project {
+    padding: 0;
+    margin:0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    border-radius: 0px;
+}

@@ -1,10 +1,5 @@
-.container{
-    display: flex;
-    justify-content: space-around;
-}
-  
 a {
-    color: rgb(66, 66, 66) !important;
+    /* color: rgb(66, 66, 66) !important; */
     font-size: larger;
     text-decoration: inherit;
     margin: 0px 20px 0px 20px;
@@ -12,12 +7,7 @@ a {
 
 nav.navbar{
     /* background-color: rgb(237,255,204,.1); */
-    background-color: #FF6600;
+    /* background-color: #FF6600; */
+    background-color: black;
     color: white;
 }
-
-.me-auto{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly !important;
-  }
