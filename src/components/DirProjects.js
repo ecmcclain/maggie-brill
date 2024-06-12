@@ -1,5 +1,5 @@
 export const dirProjects = [
-    {'cover': '',
+    {'cover': '/how-to-glow-in-the-dark/Still002.jpg',
         'title': 'HOW TO GLOW IN THE DARK',
         'director': 'Writer/Director',
         'type':'Narrative Short',
@@ -8,10 +8,18 @@ export const dirProjects = [
         'linktxt':'Northwestern University Women Filmmakers Alliance’s Grant Recipient/nCineYouth Festival Official Selection 2023',
         'link':'',
         'url':'directing/how-to-glow-in-the-dark',
-        'imgs':['']
+        'imgs':['/how-to-glow-in-the-dark/Still001.jpg',
+                '/how-to-glow-in-the-dark/Still003.png',
+                '/how-to-glow-in-the-dark/Still004.png',
+                '/how-to-glow-in-the-dark/Still005.jpg',
+                '/how-to-glow-in-the-dark/Still006.jpg',
+                '/how-to-glow-in-the-dark/Still007.jpg',
+                '/how-to-glow-in-the-dark/Still008.jpg',
+                '/how-to-glow-in-the-dark/Still009.jpg',
+                '/how-to-glow-in-the-dark/Still010.jpg']
     },
     
-    {'cover': '',
+    {'cover': '/walter/Still003.png',
         'title': 'WALTER',
         'director': 'Writer/Director',
         'type':'Narrative Short',
@@ -20,6 +28,11 @@ export const dirProjects = [
         'linktxt':'Won the Audience Award for Best Film at Prague Film School',
         'link':'',
         'url':'directing/walter',
-        'imgs':['']
+        'imgs':['/walter/Still001.png',
+                '/walter/Still002.png',
+                '/walter/Still003.png',
+                '/walter/Still004.png',
+                '/walter/Still005.png',
+                '/walter/Still006.png']
     }
     ]

@@ -31,7 +31,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #FF6600;
+  background-color: black;
 }
 
 
@@ -45,6 +45,6 @@ header{
   padding: 2rem;
   border: None ;
   margin: 2rem;
-  background-color: #FF6600 !important;
-
+  background-color: rgb(255,102,0,0) !important;
 }
+

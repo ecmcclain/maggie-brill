@@ -8,6 +8,7 @@ import React, {useRef, useState} from "react";
 import { ArrowRight } from 'react-bootstrap-icons';
 import { ArrowLeft } from 'react-bootstrap-icons';
 
+
 const Cinematography = () => {
     const sliderRef = useRef(null);
     const scrollAmount = 360; // The amount to scroll when clicking the navigation buttons
@@ -39,7 +40,9 @@ const Cinematography = () => {
                 }}
             > <ArrowRight />
             </button>
+            
         </section>
+        
     )
 }
 

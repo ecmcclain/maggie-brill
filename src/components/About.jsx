@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 const About = () => {
     return (
-        <section id="about">
+        <section id="about" className='fixed-top'>
             <Container fluid className='profile-container'>
                 <Card 
                 className='container-size' style={{backgroundImage: `url(/maggie-profile.JPEG)`}}>

@@ -27,7 +27,7 @@ export default function DirProject (){
         <Container fluid className='head-container'>
             <Col>
             <Row>
-                <Card className='head'>
+                <Card className='head' style={{backgroundImage: `url(${project.cover})`}}>
                     <h5>{project.title}</h5>
                     <h6>{project.director}</h6>
                     <h6>{project.type} | {project.genre} | {project.time}</h6>

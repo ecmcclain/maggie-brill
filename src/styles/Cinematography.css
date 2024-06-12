@@ -30,7 +30,7 @@
     outline: inherit;
     background-color: rgb(237,255,204,.0);
     border-radius: 6px;
-    height: 250px;
+    height: 170px;
     width: 50px;
     margin: 5px;
   }
@@ -49,3 +49,19 @@
     height: 100%;
     border-radius: 0px;
 }
+
+.reel{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* width: 100vw; */
+    height: 100vh;
+  }
+
+  .video{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* width: 100vw; */
+    height: 100vh;
+  }

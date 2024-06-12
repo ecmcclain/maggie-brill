@@ -9,14 +9,14 @@ const NavBar = () => {
 
       <Navbar expand="lg" fixed='bottom'>
         <Container >
-            {/* <Navbar.Brand>
+            <Navbar.Brand>
                 <Link
                     to="/"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""}>
                     MAGGIE BRILL
                 </Link>
-            </Navbar.Brand> */}
+            </Navbar.Brand>
             <Navbar.Toggle className="toggler" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">

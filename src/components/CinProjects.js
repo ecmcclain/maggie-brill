@@ -119,7 +119,7 @@ export const cinProjects = [
             '/everywhere-i-look/Still014.png',
             '/everywhere-i-look/Still015.png']
 },
-{'cover': '',
+{'cover': '/color-my-grey-street/Still013.jpg',
     'title': 'COLOR MY GREY STREET',
     'director': 'Rose Sutton',
     'type':'Narrative Short',
@@ -128,7 +128,21 @@ export const cinProjects = [
     'linktxt':'Coming Soon!',
     'link':'',
     'url':'cinematography/color-my-grey-street',
-    'imgs':''
+    'imgs':['/color-my-grey-street/Still001.jpg',
+            '/color-my-grey-street/Still002.jpg',
+            '/color-my-grey-street/Still003.jpg',
+            '/color-my-grey-street/Still004.jpg',
+            '/color-my-grey-street/Still005.jpg',
+            '/color-my-grey-street/Still006.jpg',
+            '/color-my-grey-street/Still007.jpg',
+            '/color-my-grey-street/Still008.jpg',
+            '/color-my-grey-street/Still009.jpg',
+            '/color-my-grey-street/Still010.jpg',
+            '/color-my-grey-street/Still011.jpg',
+            '/color-my-grey-street/Still012.jpg',
+            '/color-my-grey-street/Still013.jpg',
+            '/color-my-grey-street/Still014.jpg',
+            '/color-my-grey-street/Still015.jpg']
 },
 {'cover': '',
     'title': 'SKY',
@@ -141,7 +155,7 @@ export const cinProjects = [
     'url':'cinematography/sky',
     'imgs':''
 },
-{'cover': '',
+{'cover': '/youre-drifting/Still002.jpg',
     'title': 'YOU’RE DRIFTING',
     'director': 'Ben Kaiser',
     'type':'Narrative Short',
@@ -150,6 +164,14 @@ export const cinProjects = [
     'linktxt':'Coming Soon!',
     'link':'',
     'url':'cinematography/youre-drifting',
-    'imgs':''
+    'imgs':['/youre-drifting/Still001.jpg',
+            '/youre-drifting/Still002.jpg',
+            '/youre-drifting/Still003.jpg',
+            '/youre-drifting/Still004.jpg',
+            '/youre-drifting/Still005.jpg',
+            '/youre-drifting/Still006.jpg',
+            '/youre-drifting/Still007.jpg',
+            '/youre-drifting/Still008.jpg',
+            '/youre-drifting/Still009.jpg']
 }
 ]
