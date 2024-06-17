@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
 
       <Navbar expand="lg" fixed='bottom'>
-        <Container >
+        <Container className='bar'>
             <Navbar.Brand>
                 <Link
                     to="/"

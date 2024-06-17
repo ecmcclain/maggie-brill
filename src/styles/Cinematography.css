@@ -58,10 +58,18 @@
     height: 100vh;
   }
 
-  .video{
+.video{
     display: flex;
     margin: 0;
     padding: 0;
     /* width: 100vw; */
     height: 100vh;
   }
+
+#cinematography{
+    margin: 0px 0px 100px 0px;
+}
+  
+.bi {
+    color: white;
+}

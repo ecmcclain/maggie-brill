@@ -5,8 +5,8 @@ import {Container, Row, Col} from 'react-bootstrap';
 import {cinProjects} from './CinProjects';
 import ProjectCard from "./ProjectCard";
 import React, {useRef, useState} from "react";
-import { ArrowRight } from 'react-bootstrap-icons';
-import { ArrowLeft } from 'react-bootstrap-icons';
+import { CaretRightFill } from 'react-bootstrap-icons';
+import { CaretLeftFill } from 'react-bootstrap-icons';
 
 
 const Cinematography = () => {
@@ -21,7 +21,7 @@ const Cinematography = () => {
                 const container = sliderRef.current;
                 container.scrollLeft -= scrollAmount; 
                 }}
-            > <ArrowLeft />
+            > <CaretLeftFill />
             </button>
             <Container fluid className='cin' ref={sliderRef}>
                     {cinProjects.map((CinProject) => {
@@ -38,7 +38,7 @@ const Cinematography = () => {
                 const container = sliderRef.current;
                 container.scrollLeft += scrollAmount;
                 }}
-            > <ArrowRight />
+            > <CaretRightFill />
             </button>
             
         </section>
