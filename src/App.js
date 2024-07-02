@@ -11,7 +11,7 @@ import NavBar from './components/NavBar';
 import CinProject from './components/CinProject';
 import Directing from './components/Directing';
 import DirProject from './components/DirProject';
-import reel from './reel.mp4'
+// import reel from './reel.mp4'
 
 
 function App() {
