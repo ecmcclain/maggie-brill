@@ -17,11 +17,11 @@ import reel from './reel.mp4'
 function App() {
   return (
     <div className="app-container" style={{display: 'grid', justifyContent:'center'}}>
-      <Container className='reel' style={{justifySelf: 'center'}}>
+      {/* <Container className='reel' style={{justifySelf: 'center'}}>
         <video className='video' autoPlay muted loop preload='metadata'>
           <source src={reel} type='video/mp4' />
         </video>
-      </Container>
+      </Container> */}
       <main>
       <Routes>
           <Route path="/about" element={<About />} />
