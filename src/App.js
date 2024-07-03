@@ -2,7 +2,7 @@ import './App.css';
 import {Route, Routes} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 
 import Cinematography from './components/Cinematography';
 import About from './components/About';
