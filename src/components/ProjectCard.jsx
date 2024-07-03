@@ -1,4 +1,4 @@
-import {Container, Row, Col} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 
 export default function ProjectCard ({project}){
@@ -11,7 +11,7 @@ export default function ProjectCard ({project}){
         //         xl={{span: 6}}
         //         xxl={{span: 4}}
         //         className='cinCard'>
-        <a className="projectLink" href={project.url}>
+        <Link className="projectLink" to={project.url}>
             <div className="card project" style={{backgroundImage: `url('${project.cover}')`,
                                                     backgroundSize: 'cover',
                                                     backgroundPosition: 'center',
@@ -20,7 +20,7 @@ export default function ProjectCard ({project}){
                 <p className="projectTitle">{project.title}</p> 
             </div>
         </div>
-        </a>
+        </Link>
         // </Col>
        
     )

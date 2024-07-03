@@ -12,10 +12,10 @@ import ProjectImage from "./ProjectImage";
 
 export default function CinProject (){
     const { CinProjectUrl } = useParams();
-    const url = `cinematography/${CinProjectUrl}`
+    const url = `${CinProjectUrl}`
     let project = useRef(null);
     for (const tempProject of cinProjects){
-        if (tempProject['url'] == url){
+        if (tempProject['url'] === url){
             project = tempProject;
         }
     }

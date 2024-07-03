@@ -12,10 +12,10 @@ import ProjectImage from "./ProjectImage";
 
 export default function DirProject (){
     const { DirProjectUrl } = useParams();
-    const url = `directing/${DirProjectUrl}`
+    const url = `${DirProjectUrl}`
     let project = useRef(null);
     for (const tempProject of dirProjects){
-        if (tempProject['url'] == url){
+        if (tempProject['url'] === url){
             project = tempProject;
         }
     }

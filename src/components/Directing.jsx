@@ -1,6 +1,6 @@
 import '../styles/Cinematography.css'
 
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 
 import {dirProjects} from './DirProjects';
 import ProjectCard from "./ProjectCard";

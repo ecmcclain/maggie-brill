@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.reel{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.video{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  object-fit: contain;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left:0;
+}
+
+.app-container{
+  width: 100%;
+}
+
+

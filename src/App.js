@@ -6,41 +6,38 @@ import Container from 'react-bootstrap/Container';
 
 import Cinematography from './components/Cinematography';
 import About from './components/About';
-// import Calendar from './components/Calendar';
 import NavBar from './components/NavBar';
 import CinProject from './components/CinProject';
 import Directing from './components/Directing';
 import DirProject from './components/DirProject';
-import reel from './reel.mp4'
 
 
 function App() {
   return (
-    <div className="app-container" style={{display: 'grid', justifyContent:'center'}}>
-      <Container className='reel' style={{justifySelf: 'center'}}>
+    <div className="app-container" style={{margin: '0', justifyContent:'center', position: 'relative'}}>
+      <Container className='reel' style={{margin: '0', justifyContent:'center'}}>
         <video className='video' autoPlay muted loop preload='metadata'>
-          <source src={reel} type='video/mp4' />
+          <source src='/reel.mp4' type='video/mp4' />
         </video>
       </Container>
-      <main>
+      <main style={{position: 'absolute', top: '0'}}>
       <Routes>
+          <Route path="/" />
           <Route path="/about" element={<About />} />
           <Route path="/cinematography" element={<Cinematography />} />
-          <Route path="/directing" element={<Directing />} />
-        </Routes>
-        </main>
-        <footer>
-          <NavBar/>
-          <Routes>
           <Route path="/cinematography/:CinProjectUrl" element={<CinProject />}
               loader={({ params }) => {
                 console.log(params.CinProjectUrl);
               }}> </Route>
-              <Route path="/directing/:DirProjectUrl" element={<DirProject />}
+          <Route path="/directing" element={<Directing />} />
+          <Route path="directing/:DirProjectUrl" element={<DirProject />}
               loader={({ params }) => {
                 console.log(params.DirProjectUrl);
               }}> </Route>
-          </Routes>
+        </Routes>
+        </main>
+        <footer>
+          <NavBar/>
       </footer>
     </div>
   );

@@ -1,10 +1,10 @@
 import '../styles/Cinematography.css'
 
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 
 import {cinProjects} from './CinProjects';
 import ProjectCard from "./ProjectCard";
-import React, {useRef, useState} from "react";
+import React, {useRef} from "react";
 import { CaretRightFill } from 'react-bootstrap-icons';
 import { CaretLeftFill } from 'react-bootstrap-icons';
 
